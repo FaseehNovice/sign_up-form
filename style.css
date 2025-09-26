@@ -1,0 +1,36 @@
+@font-face {
+    font-family: NorseBold;
+    src: url("./assets/Norse-Bold.otf") format("opentype");
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#bgImg{
+    width: 25rem;
+    height: 100vh;
+}
+
+#imgContainer{
+    font-family: NorseBold, Arial, Helvetica, sans-serif;
+    position: absolute;
+    height: 100vh;
+}
+#logoContainer{
+    background-color: rgba(0, 0, 0, 0.397);
+    position: relative;
+    bottom: 32rem;
+    height: 110px;
+    font-family: NorseBold,Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#OdinLogo{
+    height: 90px;
+}
