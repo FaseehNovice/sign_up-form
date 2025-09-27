@@ -44,7 +44,6 @@ body{
 }
 
 #contentTop{
-    text-wrap: wrap;
     margin-left: 3rem;
     width: 36rem;
 }
@@ -107,5 +106,24 @@ form{
 label{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
-    
+    color: rgb(83, 83, 83);
+}
+input{
+    border: 1px solid #E5E7EB;
+}
+
+input[type="password"]:invalid {
+    border: 1px solid red;
+    background-color: #ffecec;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgb(126, 200, 230);
+    box-shadow: 0px 0px 4px rgb(126, 200, 230);
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 1px 3px 3px rgb(126, 125, 125);
 }
